@@ -1,0 +1,14 @@
+name: grpc_example
+description: Small gRPC example for blog post.
+version: 0.0.1
+
+environment:
+  sdk: '>=1.24.3 <2.0.0'
+
+dependencies:
+  async: ^1.13.3
+  grpc:
+  protobuf: ^0.7.0
+
+dev_dependencies:
+  test: ^0.12.0
